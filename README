@@ -1,0 +1,9 @@
+I'm not much of a readme guy, but here goes..
+
+You need to be running any *nix os that has notify-osd, although it can work without it, it will then just print out the notifications to the terminal.
+
+You need to put beautiful soup in the same directory, get it by downloading it from this git repo.
+
+That is all, help keep u413 active by knowing when people join the chat!.
+
+Maybe pimaster will make this run on windows one day, who knows?
