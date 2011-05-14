@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python /home/james/u413apps/u413notify/u413notify.py > /dev/null

@@ -30,7 +30,7 @@ notify = pynotify.Notification("New messages on u413!","Test")
 def since(stamp):
 	current = time.time()
 	since = current - float(stamp)
-	return "("+str(int(since))+" seconds ago)"
+	return "("+str(int(since))+" secounds ago)"
 	
 def main():
 	print "Starting notify..."
@@ -40,7 +40,7 @@ def main():
 			#notify.show()
 			f = urllib.urlopen("http://jq.dyndns-free.com/logcheck.php").read()
 			if f == f_old:
-				time.sleep(10)
+				sleep(10)
 				continue
 			soup = BeautifulSoup(f)
 			lastfive = []
@@ -75,7 +75,6 @@ def main():
 			print "Ending notify..."
 			exit()
 		except:
-			time.sleep(10)
 			continue
 		
 	return 0
